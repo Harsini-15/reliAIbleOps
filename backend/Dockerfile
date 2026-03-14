@@ -18,11 +18,11 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
-COPY backend/requirements.txt .
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project
-COPY backend/ .
+COPY . .
 
 # Make entrypoint executable
 RUN chmod +x /app/entrypoint.sh
