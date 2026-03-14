@@ -2,7 +2,7 @@ services:
   - type: web
     name: reliableops-backend
     env: docker
-    dockerContext: backend
+    dockerContext: .
     dockerfilePath: Dockerfile
     plan: free
     envVars:
