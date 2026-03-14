@@ -45,8 +45,17 @@ The easiest way to run the application is via Docker Compose.
 4. Watch the dashboard instantly populate with health gauges, charts, and actionable insights.
 5. Alternatively, upload the `datasets/sample_operational_data.csv` file using the **Upload CSV** button.
 
+## 🌐 Cloud Deployment (Hackathon Ready)
+This project is configured for **One-Click Zero-Cost Deployment**:
+
+- **Backend (Django + Neon Postgres):** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Harsini-15/reliAIbleOps)
+- **Frontend (React + Vercel):** [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import?s=https://github.com/Harsini-15/reliAIbleOps&root-directory=frontend)
+
 ## 📁 Project Structure
 - `backend/` - Django APIs, Data Reliability Engine, Alerts, and ML Pipeline integration.
 - `frontend/` - React SPA with custom styling and Chart.js integration.
 - `ml_models/` - Standalone data generation and AnomalyDetector classes for offline training.
 - `datasets/` - Sample operational data.
+
+---
+**Built for Cloud Infrastructure Intelligence • 2026**
