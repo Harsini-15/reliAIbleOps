@@ -1,0 +1,12 @@
+timestamp,metric_name,value,unit
+2026-03-13 10:00:00,Core_Temperature,65.2,Celsius
+2026-03-13 10:01:00,Core_Temperature,65.5,Celsius
+2026-03-13 10:02:00,Core_Temperature,65.1,Celsius
+2026-03-13 10:03:00,Core_Temperature,98.7,Celsius
+2026-03-13 10:04:00,Core_Temperature,64.8,Celsius
+2026-03-13 10:05:00,Core_Temperature,65.3,Celsius
+2026-03-13 10:06:00,Core_Temperature,112.4,Celsius
+2026-03-13 10:07:00,Core_Temperature,65.1,Celsius
+2026-03-13 10:08:00,Core_Temperature,65.0,Celsius
+2026-03-13 10:09:00,Core_Temperature,65.4,Celsius
+2026-03-13 10:10:00,Core_Temperature,65.2,Celsius

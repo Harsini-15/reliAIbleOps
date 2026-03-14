@@ -1,0 +1,12 @@
+timestamp,metric_name,value,unit
+2026-03-13 11:00:00,Database_Latency,22,ms
+2026-03-13 11:01:00,Database_Latency,25,ms
+2026-03-13 11:02:00,Database_Latency,,ms
+2026-03-13 11:03:00,Database_Latency,24,ms
+2026-03-13 11:04:00,Database_Latency,24,ms
+2026-03-13 11:04:00,Database_Latency,24,ms
+2026-03-13 11:05:00,Database_Latency,1500,ms
+2026-03-13 11:06:00,Database_Latency,23,ms
+2026-03-13 11:07:00,Database_Latency,22,ms
+2026-03-13 11:08:00,Database_Latency,,ms
+2026-03-13 11:09:00,Database_Latency,24,ms

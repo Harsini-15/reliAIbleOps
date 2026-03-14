@@ -1,0 +1,11 @@
+timestamp,metric_name,value,unit
+2026-03-13 12:00:00,Power_Load,450,kW
+2026-03-13 12:05:00,Power_Load,455,kW
+2026-03-13 12:10:00,Power_Load,460,kW
+2026-03-13 12:15:00,Power_Load,850,kW
+2026-03-13 12:20:00,Power_Load,870,kW
+2026-03-13 12:25:00,Power_Load,458,kW
+2026-03-13 12:30:00,Power_Load,452,kW
+2026-03-13 12:35:00,Power_Load,449,kW
+2026-03-13 12:40:00,Power_Load,455,kW
+2026-03-13 12:45:00,Power_Load,460,kW
