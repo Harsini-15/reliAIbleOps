@@ -2,8 +2,6 @@ services:
   - type: web
     name: reliableops-backend
     env: docker
-    dockerContext: .
-    dockerfilePath: backend/Dockerfile
     plan: free
     envVars:
       - key: DJANGO_DEBUG
