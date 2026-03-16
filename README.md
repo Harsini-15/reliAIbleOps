@@ -3,6 +3,10 @@
 
 ReliAIbleOps is a cloud-ready engineering intelligence platform. It collects operational edge data, automatically cleans and validates its reliability, detects anomalies using Machine Learning (Isolation Forest & Z-Score), and visualizes predictive insights through an intuitive, premium React dashboard.
 
+## 🌍 Live Demo & API
+- **Live React Dashboard:** [https://reliaibleops.vercel.app](https://reliaibleops.vercel.app)
+- **Live Production API:** [https://reliableops-backend.onrender.com](https://reliableops-backend.onrender.com)
+
 ## 🚀 Features
 - **Data Reliability Engine**: Scores incoming data based on Completeness, Consistency, and Uniqueness.
 - **AI Anomaly Detection**: Built-in Python ML Pipeline utilizing `scikit-learn` (Isolation Forest) and `scipy` statistics.
