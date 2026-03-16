@@ -316,22 +316,22 @@ function App() {
         <div className="stats-grid">
           <div className="stat-card indigo">
             <div className="stat-label">Total Data Points</div>
-            <div className="stat-value indigo">{data.total_data_points.toLocaleString()}</div>
+            <div className="stat-value indigo">{data?.total_data_points?.toLocaleString() || 0}</div>
             <div className="stat-sub">Telemetry records ingested</div>
           </div>
           <div className="stat-card emerald">
             <div className="stat-label">Validated Records</div>
-            <div className="stat-value emerald">{data.validated_data_points.toLocaleString()}</div>
+            <div className="stat-value emerald">{data?.validated_data_points?.toLocaleString() || 0}</div>
             <div className="stat-sub">Passed reliability checks</div>
           </div>
           <div className="stat-card cyan">
             <div className="stat-label">Avg Reliability</div>
-            <div className="stat-value cyan">{data.avg_reliability_score}%</div>
+            <div className="stat-value cyan">{data?.avg_reliability_score || 0}%</div>
             <div className="stat-sub">Completeness & Consistency</div>
           </div>
           <div className="stat-card rose">
             <div className="stat-label">Anomalies Detected</div>
-            <div className="stat-value rose">{data.total_anomalies.toLocaleString()}</div>
+            <div className="stat-value rose">{data?.total_anomalies?.toLocaleString() || 0}</div>
             <div className="stat-sub">Isolated by ML pipeline</div>
           </div>
         </div>
